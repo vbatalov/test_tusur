@@ -1,7 +1,7 @@
 <?php
 
 use App\Livewire\QuadraticEquation\QuadraticEquationLogViewer;
-use App\Livewire\QuadraticEquation\SolveQuadraticEquation;
+use App\Livewire\QuadraticEquation\QuadraticEquationSolve;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get("/", SolveQuadraticEquation::class)->name("equation-quadratic-solve");
+Route::get("/", QuadraticEquationSolve::class)->name("equation-quadratic-solve");
 Route::get("logs", QuadraticEquationLogViewer::class)->name("quadratic-equation-log");
