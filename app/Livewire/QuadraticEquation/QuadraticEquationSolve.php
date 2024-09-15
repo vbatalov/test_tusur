@@ -9,7 +9,7 @@ use Illuminate\View\View;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
 
-class SolveQuadraticEquation extends Component
+class QuadraticEquationSolve extends Component
 {
     #[Validate("required|int")]
     public $a;
