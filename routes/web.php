@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get("/", SolveQuadraticEquation::class);
+Route::get("/", SolveQuadraticEquation::class)->name("equation-quadratic-solve");
 Route::get("logs", QuadraticEquationLogViewer::class)->name("quadratic-equation-log");
